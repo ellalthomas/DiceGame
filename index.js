@@ -55,37 +55,37 @@ if (player1Number == 2) {
   console.log('Player2 now has ' + point2 + ' points!');
 }
 
-} while (point1 < 5) {
+} while (point1 < 5 && point2 < 5) {
 }
 
-//counting numer of 6's rolled for each player
-if (player1Number == 6) {
-  player1Rolls6 ++
+// //counting numer of 6's rolled for each player
+// if (player1Number == 6) {
+//   player1Rolls6 ++
 
-} else if (player2Number == 6) {
-  player2Rolls6 ++
-} 
+// } else if (player2Number == 6) {
+//   player2Rolls6 ++
+// } 
 
-//adding 2 points for player who rolled the most 6's
-if (player1Rolls6 > player2Rolls6) {
-  point1 ++
-  point1 ++
-  console.log('Player1 you rolled the number 6 more so you get 2 extra points');
-  console.log('Player1 now has ' + point1 + ' points!');
+// //adding 2 points for player who rolled the most 6's
+// if (player1Rolls6 > player2Rolls6) {
+//   point1 ++
+//   point1 ++
+//   console.log('Player1 you rolled the number 6 more so you get 2 extra points');
+//   console.log('Player1 now has ' + point1 + ' points!');
 
-} else if (player1Rolls6 < player2Rolls6) {
-  point2 ++
-  point2 ++
-  console.log('Player2 you rolled the number 6 more so you get 2 extra points');
-  console.log('Player2 now has ' + point2 + ' points!');
-}
+// } else if (player1Rolls6 < player2Rolls6) {
+//   point2 ++
+//   point2 ++
+//   console.log('Player2 you rolled the number 6 more so you get 2 extra points');
+//   console.log('Player2 now has ' + point2 + ' points!');
+// }
 
-//telling the players who won
-if (point1 > point2){
-  console.log('Player2 you only have ' + point2 + ' points');
-  console.log('Player1 you have ' + point1 + ' points! You win!');
+// //telling the players who won
+// if (point1 > point2){
+//   console.log('Player2 you only have ' + point2 + ' points');
+//   console.log('Player1 you have ' + point1 + ' points! You win!');
 
-} else if (point1 < point2) {
-  console.log('Player1 you only have ' + point2 + ' points');
-  console.log('Player2 you have ' + point2 + ' points! You win!');
-}
+// } else if (point1 < point2) {
+//   console.log('Player1 you only have ' + point2 + ' points');
+//   console.log('Player2 you have ' + point2 + ' points! You win!');
+// }
